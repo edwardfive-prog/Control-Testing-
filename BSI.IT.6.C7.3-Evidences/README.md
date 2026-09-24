@@ -12,7 +12,7 @@ Review period: 08/01/2025 – 06/01/2026 · Entity: BSI · Population tested: 10
 
 | Folder | Prefix | Contents | Primary attributes supported |
 |---|---|---|---|
-| `01_Management_Attestation_In-Scope_Applications` | MA01 | BCiC in-scope applications screenshot (BSI In-Scope Applications-2026) | Applications in Scope Identified |
+| `01_Management_Attestation_In-Scope_Applications` | MA01–MA02 | BCiC in-scope applications screenshot (BSI In-Scope Applications-2026) and the Management Attestation email with signed attestation (13 in-scope applications) | Applications in Scope Identified |
 | `02_Business_Line_Approval_Results_Email` | BLA | Business line DR test scripts with the DIV results section (11/15/2025) and the Financial Analysis approval email | Business Line Approval of Results; DIV procedures; Business Data Validation |
 | `03_DIV_Manager_Attestation_Email_Approvals` | DMA | Application-specific business line manager approval emails; signed attestations are the attachments of these emails | Business Line Approval of Results; manager name / approval dates |
 | `04_Data_Integrity_and_Email_Testing_Evidence` | E01–E05, E07–E10, E13, E16b | BCiC exports & screenshots, IT DR planning invite, data comparison emails (report files attached to E07 / E08), backup/restore approval emails | All attributes |
@@ -24,6 +24,7 @@ Review period: 08/01/2025 – 06/01/2026 · Entity: BSI · Population tested: 10
 | Ref | File | Date / owner | Content |
 |---|---|---|---|
 | MA01 | `MA01_BSI In-Scope Applications-2026.png` | 09/23/2026 – Cesar Vidal (BCiC walkthrough) | BC in the Cloud 'Applications In Scope for DR Test BSI' view (filter Scope Entity = BSI; 43 items). The 10 tested applications are selected (1822, 1867, 1868, 1903, 1917, 1937, 1936, 3301, 3299, 4052) and each shows 2025 DR Test Scope = True, 2025 Backup/Restore Test Scope = True and 2025 Backup/Restore DIV Scope = True. |
+| MA02 | `MA02_RE_ Management Attestation – DIV Testing (Nov 2025 & Feb 2026) – Payments & Cash Management – Frank Puentes 08-18-2026.msg` | 08/18/2026 – Frank Puentes | Management Attestation email: Frank Puentes (Executive Director, Payments & Cash Management) returns the signed attestation (attachment 4069_001.pdf) to Cesar Vidal. The quoted Cesar Vidal request (08/17/2026) confirms the DR exercises of 11/15/2025 and 02/21/2026 and attaches the BCiC DIV export; the signed attestation §2 lists the 13 in-scope BSI applications that store business data, including all 10 tested applications. Filed in the Management_Attestation folder as received; the same message is also filed as DMA03 for the business line approval attribute. |
 
 ### 02 – Business Line Approval Results – Email
 
@@ -91,7 +92,6 @@ Every item below carried the same information as a file that is kept. It was rem
 
 | Removed item | Retained in | Reason |
 |---|---|---|
-| MA02 (`MA02_RE_ Management Attestation – DIV Testing (Nov 2025 & Feb 2026) – Payments & Cash Management – Frank Puentes 08-18-2026.msg`) | DMA03 | same email message (subject, sent 08/18/2026 14:50, attachment 4069_001.pdf) |
 | DMA05b (`DMA05b_Operations (Governance & Static Data, Multi-Family Office) - All Data Integrity Validation Testing-BSI 2025-26.xlsx`) | E16b | byte-identical file (MD5 match) |
 | E11 (`BSI.IT.6.C7.3_E11_BSI.IT.6.C7.3 Manager Approval.msg`) | E10 | same email message (sent 03/09/2026 18:43) saved twice |
 | E12 (`BSI.IT.6.C7.3_E12_RE_ Testing enviroment Financial Analysis manager approval.msg`) | BLA06 | same email message (sent 01/26/2026 20:43) |
@@ -118,6 +118,7 @@ Every item below carried the same information as a file that is kept. It was rem
 ## Notes
 
 - File names carry a reference prefix (MA/BLA/DMA/E) so each workpaper citation resolves to exactly one file. Original received names are recorded in the Evidence Index tab. `BSI In-Scope Applications-20206.png` was renamed to `MA01_BSI In-Scope Applications-2026.png` (year typo in the received name).
+- MA02 (Management Attestation email, Frank Puentes 08/18/2026) is kept in folder 01 as received because it supports Applications in Scope Identified; the same message is also filed as DMA03 for the approval attribute.
 - E-numbers were kept stable after the removals (gaps at E06, E11, E12, E14–E17 are intentional and logged above) so earlier references remain traceable.
 - Signed attestations are cited as the attachment of their DMA email (e.g. "DMA02 – attached signed attestation §3.5"); E07 / E08 report files are cited as attachments of those emails.
 - E13 (11/13/2024) is prior-period and supplemental. DMA13 (Cisco Call Manager) is not one of the 10 tested applications.

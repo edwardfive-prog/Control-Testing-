@@ -61,10 +61,10 @@ def header(c, stmt_date, page, pages):
     c.drawRightString(580, 748, f"Page {page} of {pages}")
 
 
-def build(month, bal):
+def compute_month(month, bal):
+    """Return the statement figures for one month, rolling forward from bal."""
     last = calendar.monthrange(YEAR, month)[1]
     name = calendar.month_name[month]
-    stmt_date = f"{name} {last}, {YEAR}"
     opening = bal["checking"]
 
     rows, running = [], opening
@@ -87,7 +87,21 @@ def build(month, bal):
         "everyday": bal["everyday"] + 3_000.00,
         "savings": bal["savings"] + 4_000.00,
     }
-    total = sum(new_bal.values())
+    return {
+        "month": month, "last": last, "name": name,
+        "stmt_date": f"{name} {last}, {YEAR}",
+        "opening": opening, "closing": closing, "interest": interest,
+        "deposits": deposits, "withdrawals": withdrawals, "rows": rows,
+        "balances": new_bal, "total": sum(new_bal.values()),
+    }
+
+
+def build(month, bal):
+    m = compute_month(month, bal)
+    last, name, stmt_date = m["last"], m["name"], m["stmt_date"]
+    opening, closing, interest = m["opening"], m["closing"], m["interest"]
+    deposits, withdrawals, rows = m["deposits"], m["withdrawals"], m["rows"]
+    new_bal, total = m["balances"], m["total"]
 
     path = OUT_DIR / f"SAMPLE_Statement_{name}{YEAR}.pdf"
     c = canvas.Canvas(str(path), pagesize=letter)

@@ -27,9 +27,23 @@ The removals were on time, so the SLA was met. The exception is that the access 
 
 The contract extension explains why these people are still engaged. It does not explain approving privileged access on disabled or unused accounts, or the re-grants and re-enables that have no requests.
 
+**C. Re-enabling a disabled account requires an approved request, however long it was disabled.** Re-enabling MIA25249 and MIA25250 restored their privileged access (CISCO Network Administrators, ISEAdmin, CyberArk safes). That is provisioning, so it needs a request, manager validation and second-level approval (SUS.IAMS.4.2.3.4). The policy gives no exemption for short disablements. If a disabled account can be re-enabled without a request, the inactivity control in 4.2.3.1 has no effect.
+
+The disablement also does not appear to have been short:
+
+| Account | Last logon | Disabled | Status at 4/30/2026 approval | Seen enabled again |
+|---|---|---|---|---|
+| MIA25249 – Richard Harris | 11/17/2025 | 4/2/2026 | Disabled | 10/13/2026 (exact date unknown) |
+| MIA25250 – Kevin Ackley | 11/07/2025 | 4/3/2026 | Disabled | 10/13/2026 (exact date unknown) |
+
+Both accounts went about 4.5 months without a logon before they were disabled. That pattern points to an inactivity disablement (4.2.3.1), not a short break.
+
+If the IAM Standard or the PAM Procedure has a specific reactivation process, for example a service-desk re-enable with manager approval, and it was followed for these accounts, please send that evidence and we will reassess the re-enable point. Separately, the 4/30/2026 approval of accounts that were disabled at the time remains an exception under 4.2.5.1 either way.
+
 **What would change the result:**
 - ServiceNow requests and approvals for the re-grants (MIA25142, MIA25172, MIA25175, X453396) and the re-enables (MIA25249, MIA25250).
-- The reason MIA25249 and MIA25250 were disabled on 4/2–4/3/2026.
+- The reason MIA25249 and MIA25250 were disabled on 4/2–4/3/2026 (for example, the automated 90-day inactivity job).
+- The date each account was re-enabled (Netwrix or AD event), and the reactivation procedure followed, if one exists.
 - For MIA25103, any evidence that the admin access was needed while the account was disabled.
 
 **Result unchanged: 3 PASS / 7 FAIL.**

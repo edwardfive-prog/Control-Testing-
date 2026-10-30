@@ -24,7 +24,16 @@ Thank you for the Fieldglass evidence provided by BSI Procurement on 10/29/2026.
 
 The 2025 Q3 removals of MIA25142, MIA25172, MIA25175 and X453396 were not sustained, and access was later re-granted without a request. Fieldglass does not affect those exceptions.
 
-**Result unchanged: 3 PASS / 7 FAIL.**
+**Review of your response file (BSI.IT.27.C7_E07_C7.Sample.xlsx).** We agreed all 20 screenshots to the certification and AD tabs, and they match. The file does not change any conclusion:
+
+- It shows the 2026 Q2 decisions only (SOX Manager 7/27/2026, CyberArk Manager 8/17/2026, CyberArk Owner 8/27/2026). All three fall after the testing period, so we used them as supporting evidence only.
+- **MIA25103** is still disabled in AD (10/13/2026) but was approved three more times in 2026 Q2. The same person has an enabled personal account (x223865), which shows the admin account is not used or needed.
+- **MIA25249 / MIA25250** are enabled on 10/13/2026, which confirms they were re-enabled after the April 2026 disablement. The file has no request for the re-enable. MIA25250 has no employeeID or employeeNumber in AD, and its identity on the SAMPLE tab was typed in by hand instead of looked up.
+- **MIA25142, MIA25172, MIA25175, X453396** still hold the access revoked on 8/28/2025 and were approved again. No re-grant requests were included. AD holds HR numbers for MIA25172 and MIA25175, but SailPoint still certifies them as uncorrelated identities.
+- In all four certification extracts, the "Account Status" field reads "Account Removed" on every row, including enabled accounts, so we did not rely on it. The Termination Date of 12/31/2024 was still shown to reviewers in 2026 Q2.
+- The Get-ADUser command ran on 10/13/2026, although the file is named Oct10. It does not pull lastLogonDate, whenChanged or memberOf, so it cannot show group membership or the dates accounts were disabled and re-enabled.
+
+**Final result: 3 PASS / 7 FAIL.**
 
 Kind regards,
 Edward Morfa

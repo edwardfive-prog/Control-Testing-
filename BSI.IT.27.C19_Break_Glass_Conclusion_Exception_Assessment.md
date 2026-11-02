@@ -119,3 +119,40 @@ Taken together, these are consistent with zero population. They are the same typ
 > Because there were no Break Glass events or new Break Glass accounts, CISO/CIO approval of break glass access and invocation could not be tested. The control was not executed during this testing cycle (population and sample size of 0). The control has been previously tested and has not substantially changed. IT RCSA therefore expects the control to continue working, and control performance is considered Effective for the test period based on prior testing and the CDA. **No exceptions noted.**
 
 **CDA comment to add:** D1–D4 above, with a recommendation to align CyberArk Break Glass Procedure v6.0 with SUS.IAMS.4.2.1.6 (approval through a ticket or incident ticket) and the control statement (approval prior to invocation and prior to account or entitlement creation), and to obtain documented approval of v6.0.
+
+---
+
+## 6. Reviewer challenge: "break glass accounts should be created through the PAM and Break Glass procedures, the Splunk and ServiceNow screenshots don't identify them, so assume they were created and raise a finding"
+
+### 6.1 Assessment
+
+| Reviewer point | Evidence | Verdict |
+|---|---|---|
+| Break glass accounts are created each time by following the PAM procedure and the Break Glass procedure | Break Glass Procedure v6.0 §4.1–4.2: in an outage, the IT Ops Manager uses **pre-existing** privileged accounts whose passwords are on the CISO, CIO and IT Ops Manager phones. **The procedure does not create an account for each event.** The PAM Recertification Procedure and PAM Definition of Privilege have no break glass account creation step. The only related text is "CIO / CISO will review and approve break glass requests based on the incident". | **Not supported.** The four break glass accounts (miabackup, MIAEVAULT, pws_root, root) already exist and are unchanged from the prior year (C19.03). Prior-cycle C19.06 showed their creation dates. |
+| The screenshots don't identify the break glass accounts | Splunk filters on EventCode 4720 (account creation) and `user_name="*$*"`, which cannot match any of the four account names. ServiceNow searched Requested Items, not Incidents. | **Valid.** The process owner's evidence is not designed to find break glass activity. |
+| Therefore, assume accounts were created or used, and raise a finding | No event, ticket, log entry or metric shows a creation or use. PAM0023 shows 0 for each month-end from 12/31/2025 to 08/31/2026. | **Not supported as worded.** An exception has to rest on an identified occurrence, not an assumed one. The evidence gap is a **sufficiency-of-evidence / monitoring** issue. |
+
+### 6.2 Where the reviewer has a valid finding
+
+- **IAM Standard SUS.IAMS.4.2.1.6:** "Break glass activity **must be monitored**."
+- **Procedure v6.0 §4.2 step 3:** IAM/PAM Cybersecurity "will **monitor the use** of these privilege accounts…"
+
+If management cannot produce monitoring evidence that **targets the four break glass accounts**, the right finding is:
+
+> **Break glass account activity is not monitored as required by SUS.IAMS.4.2.1.6 and CyberArk Break Glass Procedure v6.0 §4.2(3). The Splunk monitoring provided does not cover the break glass accounts, so management cannot demonstrate that no unapproved break glass access occurred.**
+
+This is a design or monitoring finding, which would usually be an Action Driver. It is not "unidentified break glass accounts were created".
+
+### 6.3 Evidence that settles the question (request before the finding is decided)
+
+1. **AD attributes** for miabackup and MIAEVAULT: `whenCreated`, `pwdLastSet`, `lastLogonTimestamp`, `memberOf`. These show creation date, the last password change (quarterly rotation) and whether the accounts were used in the period.
+2. **AD inventory:** a list of all accounts in Domain Admins and Enterprise Admins, with `whenCreated`, filtered to the test period. This shows whether any new break glass-type account was created.
+3. **Splunk logons** for the four accounts in the period: EventCodes 4624, 4648 and 4672, without the `*$*` filter.
+4. **Unix logs:** `last` / wtmp records, or CyberArk session logs, for root (miaecowas) and pws_root (Miasx1).
+5. **ServiceNow incident table** query with the break glass keywords and the account names.
+
+**Decision rule**
+
+- **All of items 1–5 are provided and show no creation or use:** there is no finding. Rate the CPA as population 0, and keep the CDA observations from Section 4.
+- **Any item shows creation or use without a CISO/CIO approval ticket:** raise a **CPA exception**. The control failed.
+- **Management cannot provide items 1–4:** raise the **monitoring finding in 6.2**. Note in the CPA that the completeness of the population could not be fully verified.

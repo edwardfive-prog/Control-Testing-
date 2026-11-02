@@ -5,6 +5,8 @@
 **Risk:** BSI.IT.27.R6 Emergency Access. The inability to recover systems or operations due to a failure to manage emergency accounts may result in prolonged business disruptions, financial loss, and regulatory noncompliance.
 **Control:** Prior to creation of a break glass account or entitlements by the access management team, either the S-CISO, CIO, Head of Infrastructure or delegate approves break glass access and invocation of the break glass procedure.
 
+> **UPDATE 11/02/2026: this conclusion is superseded.** Cross-referencing the BSI.IT.27.C7 AD extracts (E05, Q1 2026 Cert) shows that break glass account **miabackup logged on 05/09/2026 18:31:57**, inside the test period. Its password was **last set 06/08/2023** (password never expires), contrary to Procedure v6.0 §4.3. A finding **is** supported. See `BSI.IT.27.C19_Reviewer_Finding_Analysis_C7_CrossRef_RCSA.docx`.
+
 ---
 
 ## 1. Bottom line

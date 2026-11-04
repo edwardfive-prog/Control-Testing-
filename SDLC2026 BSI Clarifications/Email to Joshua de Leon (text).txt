@@ -1,0 +1,54 @@
+To: Joshua De Leon <JDeLeon@bpi-gruposantander.com>
+Cc: Mingo Cordova; Mirna Roxana
+Subject: SDLC 2026 – BSI Key Controls (C1, C13, C17, C25, C4) – Clarifications and additional evidence needed by 11/13/2026
+Attachments: SDLC2026 BSI - Clarification Request by Control.docx; SDLC2026 BSI - Clarification Tracker.xlsx; SDLC2026 BSI Clarifications.zip (separately / link)
+
+Hi Joshua,
+
+I hope you are well.
+
+IT RCSA has completed the 2026 testing of the five BSI SDLC key controls (BSI.IT.23.C1, C13, C17, C25 and C4) for the review period 09/01/2025 – 08/31/2026, using the two sampled projects: ALCO – Security Lending (DH 3263) and Derivatives Non-Deliverable Forwards – NDF (DH 3264). Thank you and the team for the evidence provided so far.
+
+Most of the testing passed. Before we finalize the results, we need your help with 13 points: one failed sample and some confirmations / additional evidence. Each point is explained in the attached document with the exact document and a screenshot of what we are referring to.
+
+SUMMARY BY CONTROL
+
+1) BSI.IT.23.C1 Business Requirement – Sample 1 (Security Lending) FAIL, Sample 2 (NDF) Pass
+   • CR-01 (High): the Business Requirements for Release 01 (Appian) were approved by the Sponsor on 02/06/2026, after the Build gate (PTB) on 10/31/2025. The approval e-mail says "Those same documents were approved during phase 1". If you can provide the phase 1 BRD approval dated before 10/31/2025 that covers the Appian requirements, we can close the exception and C1 can stay Satisfactory. Otherwise C1 will be rated Needs Improvement.
+
+2) BSI.IT.23.C13 Design of System – both samples Pass
+   • CR-04: Enterprise Architecture approval was obtained as a Gate 5 item (12/04/2025 and 12/10/2025), after Build started. Was there an earlier EA / ARB review?
+   • CR-05: NDF data risk is HIGH – please provide the CDO data deliverables (data model / lineage) or the CDO confirmation.
+
+3) BSI.IT.23.C17 Solution Intent Document – both samples Pass
+   • CR-06: the Security Lending Single Design shows Delivery Hub ID "1886 – Securities Lending (JP Morgan)" and has no version dates – please confirm it is the approved document for DH 3263.
+
+4) BSI.IT.23.C25 Implement & Deployment – both samples Pass
+   • CR-07: in all 4 releases the final implementation plan was attached after the last approval and earlier versions were deleted (Security Lending R01 held a "Cornercard" plan at approval time). Please confirm what changed and whether re-approval is required.
+   • CR-08: the Roll Back section of the Security Lending R01 Deployment Plan is empty – please confirm the rollback in the ticket is the approved plan.
+
+5) BSI.IT.23.C4 Segregated Environments – both samples Pass
+   • CR-09: the same login (MIASANG) is used on production and non-production – owner and access rights.
+   • CR-10: non-production MIAAFT28 ("SANTANDER OCT 2025 EOM") holds client deals – masking or Information Security approval.
+   • CR-11: register of development / testing-in-production exceptions with Information Security approval (or confirmation there were none).
+   • CR-12: the evidence document was created on 10/22/2026, after the period – confirmation / dated evidence from the period.
+   • CR-13: evidence of separate Appian DEV / TEST / PROD environments.
+
+6) All five controls
+   • CR-02 (High): the ServiceNow list of releases deployed to production in the period (with the query used), and why projects 3625 and 3512 have a blank SDLC flag.
+   • CR-03: approved version of the 2026 SDLC process map (it is still in Draft).
+
+ATTACHED
+   • SDLC2026 BSI - Clarification Request by Control.docx – one document, one part per control. Each request shows what we found, the documents in question, screenshots with the exact place marked in red, what we need, and a response page for your explanation.
+   • SDLC2026 BSI - Clarification Tracker.xlsx – the same 13 requests, one row each, to track the responses (yellow columns are for you).
+   • SDLC2026 BSI Clarifications.zip – copies of every document in question and the screenshots, one folder per control and per request, with an empty "03 Your Response Evidence" folder where you can save new evidence. (Sent separately / shared via link because of its size – 17 MB.)
+
+Some points may need input from other teams (Enterprise Architecture, CDO, Information Security or the T24 / Appian teams). Please feel free to forward the specific request and paste their answer in the document or tracker.
+
+We would appreciate your response by 11/13/2026. Priority items are CR-01 and CR-02, as they affect the C1 rating and the population. If it helps, I am happy to set up a 30-minute call to walk through the points.
+
+Thank you for your support.
+
+Best regards,
+Edward
+IT RCSA – Cycle 2

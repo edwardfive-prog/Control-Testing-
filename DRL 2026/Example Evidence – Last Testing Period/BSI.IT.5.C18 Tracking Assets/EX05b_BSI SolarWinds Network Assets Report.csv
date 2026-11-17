@@ -1,0 +1,165 @@
+# BSI SolarWinds report (SHUSA) for All Nodes
+# SolarWinds Reconciliation Report
+
+Name,Company,Delivery,Environment,Netwok Address,DataCenter,Unmanaged,System Name,Serial Number,Serial Number,Machine Type,Device Type,Asset Type,Node Category
+MIA-DC-COLO-FW01.mia.usa.sinvest,Miami-DC,MIAMI,,180.201.210.11,Telefonica,False,MIA-DC-COLO-FW01.mia.usa.sinvest,,,Cisco ASA 5545-X,,,Network
+MIA-DC-ISR01- Perimeter Router ATT,,MIAMI,,180.201.225.18,Telefonica,False,MIA-DC-ISR01.mia.usa.sinvest,,,Cisco ISR4451,,,Network
+MIA-DC-ISR02-  Perimeter Router FPL,,MIAMI,,180.201.225.19,Telefonica,False,MIA-DC-ISR02.mia.usa.sinvest,,,Cisco ISR4451,,,Network
+MIANAPMPLSFW1- GC MPLS To Branch,,MIAMI,,180.201.225.20,Telefonica,False,MIANAPMPLSFW1.mia.usa.sinvest,,,Cisco ISR4451,,,Network
+MIA-DC-BAHRTR-01- Telefonica MPLS,,MIAMI,,180.201.253.6,Telefonica,True,MIA-DC-BAHRTR-01.mia.usa.sinvest,,,Cisco 2911K9,,,Network
+HOU-SW1 - Core Switch,,Houston,,10.1.3.225,Houston,False,HOU-SW1.mia.usa.sinvest,FJC27231RG0,FJC27231RG0,Cisco Catalyst 9300 Series Switch,,,Network
+HOU-SW1 - Core Switch,,Houston,,10.1.3.225,Houston,False,HOU-SW1.mia.usa.sinvest,FJC2723280T,FJC2723280T,Cisco Catalyst 9300 Series Switch,,,Network
+SD-SW1 - Core Switch,,San Diego,,10.1.6.225,San Diego,False,SD-SW1.mia.usa.sinvest,FJC272226PW,FJC272226PW,Cisco Catalyst 9300 Series Switch,,,Network
+SD-SW1 - Core Switch,,San Diego,,10.1.6.225,San Diego,False,SD-SW1.mia.usa.sinvest,FJC27231RKV,FJC27231RKV,Cisco Catalyst 9300 Series Switch,,,Network
+SD-SW1 - Core Switch,,San Diego,,10.1.6.225,San Diego,False,SD-SW1.mia.usa.sinvest,FJC27231RNM,FJC27231RNM,Cisco Catalyst 9300 Series Switch,,,Network
+NY-SW1 - Core Switch,,NY,,10.1.14.225,NY,False,NY-SW1.mia.usa.sinvest,FJC27231RJT,FJC27231RJT,Cisco Catalyst 9300 Series Switch,,,Network
+NY-SW1 - Core Switch,,NY,,10.1.14.225,NY,False,NY-SW1.mia.usa.sinvest,FJC27231S3U,FJC27231S3U,Cisco Catalyst 9300 Series Switch,,,Network
+HOUMPLSFW1 - L3 CrossConnect Router,,Houston,,10.1.3.224,Houston,False,HOUMPLSFW1.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+SD-MPLSFW1- MPLS L3 CrossConnect Router,,San Diego,,10.1.6.224,San Diego,False,SD-MPLSFW1.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+HOUSWDMZ1,,Houston,,10.1.3.34,Houston,False,HOUSWDMZ1.mia.usa.sinvest,FJC272226VG,FJC272226VG,Cisco Catalyst 9300 Series Switch,,,Network
+HOUSWDMZ1,,Houston,,10.1.3.34,Houston,False,HOUSWDMZ1.mia.usa.sinvest,FJC27231RPG,FJC27231RPG,Cisco Catalyst 9300 Series Switch,,,Network
+HOU-VG01- VoIP Gateway,,Houston,,10.1.2.252,Houston,False,HOUVG01.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+NY-MPLSFW1 - L3 CrossConnect Router,,NY,,10.1.14.224,NY,False,NYMPLSFW1.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+SD-SWDMZ1 - DMZ Switch,,San Diego,,10.1.6.34,San Diego,False,SD-SWDMZ1.mia.usa.sinvest,FJC272226Q6,FJC272226Q6,Cisco Catalyst 9300 Series Switch,,,Network
+SD-SWDMZ1 - DMZ Switch,,San Diego,,10.1.6.34,San Diego,False,SD-SWDMZ1.mia.usa.sinvest,FJC27231RG8,FJC27231RG8,Cisco Catalyst 9300 Series Switch,,,Network
+MIA-DC-DMZ-INSIDE - DMZ inside,,MIAMI,,10.1.254.17,Telefonica,False,MIA-DC-DMZ-INSIDE.mia.usa.sinvest,FOC1807U0JQ,FOC1807U0JQ,Cisco Catalyst 38xx stack,,,Network
+MIA-DC-DMZ-INSIDE - DMZ inside,,MIAMI,,10.1.254.17,Telefonica,False,MIA-DC-DMZ-INSIDE.mia.usa.sinvest,FOC1913X0T9,FOC1913X0T9,Cisco Catalyst 38xx stack,,,Network
+MIA-DC-SW-ILO-01 - Manager ILO,,MIAMI,,180.201.210.58,Telefonica,False,MIA-DC-SW-ILO-01.mia.usa.sinvest,FOC1841X1AU,FOC1841X1AU,Cisco Catalyst 38xx stack,,,Network
+MIA-DC-OUTSW-01 - Perimeter Outside FW,,MIAMI,,10.1.254.1,Telefonica,False,MIA-DC-OUTSW-01.mia.usa.sinvest,FOC1913U0P4,FOC1913U0P4,Cisco Catalyst 38xx stack,,,Network
+MIA-DC-OUTSW-01 - Perimeter Outside FW,,MIAMI,,10.1.254.1,Telefonica,False,MIA-DC-OUTSW-01.mia.usa.sinvest,FOC1913X0R5,FOC1913X0R5,Cisco Catalyst 38xx stack,,,Network
+MIA-CR-ME01- Disaster Recovery ATT-MPLS,,MIAMI,,180.201.225.8,CrossRoads,False,MIA-CR-ME01.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+miadcasm1.mia.usa.sinvest -LTM DMZ,Miami Data Center,MIAMI,,10.1.254.20,Telefonica,False,miadcasm1.mia.usa.sinvest,,,BIG-IP Virtual Edition,Unknown,,Network
+MIA-CR-SW01 - Core Switch Crossroad,,Miami,Miami,180.201.225.10,CrossRoads,False,MIA-CR-SW01.mia.usa.sinvest,FJC2723278Q,FJC2723278Q,Cisco Catalyst 9300 Series Switch,,,Network
+MIA-CR-SW01 - Core Switch Crossroad,,Miami,Miami,180.201.225.10,CrossRoads,False,MIA-CR-SW01.mia.usa.sinvest,FJC2723287L,FJC2723287L,Cisco Catalyst 9300 Series Switch,,,Network
+MIA-DC-N5672-01-New Fiber Switch,Telefonica,MIAMI,,180.201.160.23,Telefonica,False,MIA-DC-N5672-01,,,Cisco Nexus 5672UP,,,Network
+MIA-DC-N5672-02-New Fiber Switch,Telefonica,MIAMI,,180.201.160.24,Telefonica,False,MIA-DC-N5672-02,,,Cisco Nexus 5672UP,,,Network
+MIA-CR-ME02- Disaster Recovery FPL-MPLS,,MIAMI,,180.201.225.9,CrossRoads,False,MIA-CR-ME02.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+miadcasm2.mia.usa.sinvest -LTM DMZ,Telefonica,Miami,,10.1.254.21,Telefonica,False,miadcasm2.mia.usa.sinvest,,,BIG-IP Virtual Edition,Unknown,,Network
+MIA-HQ-UCS01-B,,MIAMI,,180.201.113.12,Brickell830,False,MIA-UCS-01-B.mia.usa.sinvest,,,Cisco,,,Network
+MIA-DC-UCS-01-B UCS M3 SUB2,,MIAMI,,180.201.160.102,Telefonica,False,MIA-DC-UCS-01-B.mia.usa.sinvest,,,Cisco,,,Network
+GSNET- RMIAMIKC-R2,,MIAMI,,180.201.253.8,Telefonica,True,,,,Unknown,,,Network
+GSNET-RMIAMIKC-R1,,MIAMI,,180.201.253.7,Telefonica,True,,,,Unknown,,,Network
+GM119840,,MIAMI,,192.168.252.250,Telefonica,True,,,,Unknown,,,Network
+ASH-DR-NK9-01- Virginia Core N9K,,Virginia,,180.201.225.21,Virginia,False,ASH-DR-NK9-01.mia.usa.sinvest,,,Nexus 9504,,,Network
+ASH-DR-NK5-01- Fiber Nexus N5K,snmplocation,Virginia,,180.201.85.10,Virginia,False,ASH-DR-NK5-01,,,Cisco Nexus 5672UP,,,Network
+ASH-DR-NK5-02- Fiber Nexus N5K,snmplocation,Viriginia,,180.201.85.11,Virginia,False,ASH-DR-NK5-02,,,Cisco Nexus 5672UP,,,Network
+ASH-DR-ISR01 - ISR Router VRF SHUSA,,Virginia,,180.201.225.23,Virginia,False,ASH-DR-ISR01.mia.usa.sinvest,,,Cisco ISR4451,,,Network
+ASH-DR-ASAI01- Firewall Inside,,Virginia,,180.201.85.24,Virginia,False,ASH-DR-ASAI01.mia.usa.sinvest,,,Cisco ASA 5525-X,,,Network
+ASH-DR-ASAOUT01- Firewall outside,,Virginia,,180.201.85.26,Virginia,False,ASH-DR-ASAOUT01.mia.usa.sinvest,,,Cisco ASA 5525-X,,,Network
+ASH-DR-DMZ-INSIDE - Inside DMZ,,Virginia,,180.201.85.19,Virginia,False,ASH-DR-DMZ-INSIDE.mia.usa.sinvest,FJC26431DXU,FJC26431DXU,Cisco Catalyst 9300 Series Switch,,,Network
+ASH-DR-DMZ-INSIDE - Inside DMZ,,Virginia,,180.201.85.19,Virginia,False,ASH-DR-DMZ-INSIDE.mia.usa.sinvest,FJC264325YP,FJC264325YP,Cisco Catalyst 9300 Series Switch,,,Network
+mia-dc-ise01- Cisco Identity Services,,MIAMI,,180.201.210.109,Telefonica,False,,,,Unknown,,,Network
+MIA-HQ-NK9- New Core Switch Floor 6th,,MIAMI,,180.201.225.5,Brickell,True,MIA-HQ-NK9.mia.usa.sinvest,,,Nexus 9504,,,Network
+MIA-HQ-FW01 - Firewall Inside Brickell,,MIAMI,,180.201.103.43,Brickell,True,MIA-HQ-FW01.mia.usa.sinvest,,,Cisco ASA 5525-X,,,Network
+MIA-HQ-FWIFI01 - Firewall Wifi Brickell,,MIAMI,,180.201.103.56,Brickell,True,MIA-HQ-FWIFI01.mia.usa.sinvest,,,Cisco ASA 5525-X,,,Network
+ASH-WLC-01- Backup Wireless Controller,,Virginia,,180.201.85.23,Virginia,False,ASH-WLC-01,,,WLC 5520,,,Network
+ASH-DR-ISR02 - Lumen MPLS,,Virginia,,180.201.225.22,Virginia,False,ASH-DR-ISR02.mia.usa.sinvest,,,Cisco ISR4451,,,Network
+ASH-DR-VOICE - Ashburn Voice Router,,Virginia,,180.201.85.40,Virginia,False,ASH-DR-VOICE.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+MIA-DC-UCS-B,Telefonica,MIAMI,,180.201.160.41,Telefonica,False,MIA-DC-UCS-B.mia.usa.sinvest,,,Cisco,,,Network
+MIA-DC-UCS-A,Telefonica,MIAMI,,180.201.160.40,Telefonica,False,MIA-DC-UCS-A.mia.usa.sinvest,,,Cisco,,,Network
+MIA-DC-VGW-02.mia.usa.sinvest,,MIAMI,,180.201.150.130,Telefonica,False,MIA-DC-VGW-02.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+NY-VG01.mia.usa.sinvest,,NY,,10.1.13.252,NY,False,NY-VG01.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+SD-VG01.mia.usa.sinvest,,San Diego,,10.1.5.252,San Diego,False,SDVG01.mia.usa.sinvest,,,Cisco 2951K9,,,Network
+MIA-CR-VG01.mia.usa.sinvest,,MIAMI,,180.201.78.252,CrossRoads,False,MIACRVG01.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+MIA-DC-iSPDMVPN-Comcast_VA,,MIAMI,,180.201.141.50,Telefonica,False,MIADCDMVPN.mia.usa.sinvest,,,Cisco ISR4451,,,Network
+MIA-DC-VGW-00.mia.usa.sinvest,,MIAMI,,180.201.150.132,Telefonica,False,MIA-DC-VGW-00.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+MIA-DC-FRONTOUT01- DMZ ASA PROJECT,,MIAMI,,180.201.210.13,Telefonica,False,MIA-DC-FRONTOUT01.mia.usa.sinvest,,,Cisco ASA 5545-X,,,Network
+MIA-DC-FRONTOUT02 - DMZ ASA PROJECT,,MIAMI,,180.201.210.14,Telefonica,False,MIA-DC-FRONTOUT01.mia.usa.sinvest,,,Cisco ASA 5545-X,,,Network
+NY-Brch-iSPDMVPN- ISP DMVPN spoke,,NY,,10.1.244.2,NY,False,NY-Brch-iSPDMVPN.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+MIA-DC-DMZ-FRONT - Switch dmzfront L2,,MIAMI,,10.1.254.18,Telefonica,False,MIA-DC-DMZ-FRONT.mia.usa.sinvest,FCW2204F12R,FCW2204F12R,Cisco Catalyst 38xx stack,,,Network
+MIA-DC-DMZ-FRONT - Switch dmzfront L2,,MIAMI,,10.1.254.18,Telefonica,False,MIA-DC-DMZ-FRONT.mia.usa.sinvest,FOC2202X1U8,FOC2202X1U8,Cisco Catalyst 38xx stack,,,Network
+ASH-DR-DMZ-OUTSIDE - Switch dmz L2,,Virginia,,10.10.30.3,Virginia,False,ASH-DR-DMZ-OUTSIDE.mia.usa.sinvest,FJC27231QSE,FJC27231QSE,Cisco Catalyst 9300 Series Switch,,,Network
+ASH-DR-DMZ-OUTSIDE - Switch dmz L2,,Virginia,,10.10.30.3,Virginia,False,ASH-DR-DMZ-OUTSIDE.mia.usa.sinvest,FJC27231RNF,FJC27231RNF,Cisco Catalyst 9300 Series Switch,,,Network
+HOU-Brch-iSPDMVPN- ISP DMVPN spoke,,Houston,,10.1.242.2,Houston,False,HOU-Brch-iSPDMVPN.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+MIA-CR-DMVPN01- ISP DMVPN spoke,,Miami,,192.168.243.2,CrossRoads,True,MIA-CR-DMVPN.mia.usa.sinvest,,,Cisco ISR4451,,,Network
+ash-dc-ngint01,,Virginia,,180.201.85.70,Virginia,False,ash-dc-ngint01,,,Firepower 2140,,,Network
+ash-dc-f5-01.mia.usa.sinvest,Virginia Digital Realty,Virginia,,180.201.88.110,Virginia,False,ash-dc-f5-01.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+ash-dc-f5-02.mia.usa.sinvest,Virginia,Ashburn,,180.201.88.112,Virginia,False,ash-dc-f5-02.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+rojo.pb-santander.com,,MIAMI,,180.201.210.119,Telefonica,False,rojonew.mia.usa.sinvest,,,Firepower 2120,,,Network
+mia-dc-gtm01.mia.usa.sinvest,Miami,Miami,,180.201.210.80,Telefonica,False,mia-dc-gtm01.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-gtm02.mia.usa.sinvest,Network Closet 1,Miami,,180.201.210.81,Telefonica,False,mia-dc-gtm02.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+ash-dc-gtm01.mia.usa.sinvest,Virginia,ashburn,,180.201.88.80,Virginia,False,ash-dc-gtm01.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+ash-dc-gtm02.mia.usa.sinvest,Network Closet 1,Ashburn,,180.201.88.81,Virginia,False,ash-dc-gtm02.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-ltm01.mia.usa.sinvest -LTM Internal,Telefonica,Miami,,180.201.210.90,Telefonica,False,mia-dc-ltm01.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-ltm02.mia.usa.sinvest -LTM Internal,Telefonica,Miami,,180.201.210.91,Telefonica,False,mia-dc-ltm02.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+azul.mia.usa.sinvest,,Ashburn,,180.201.85.119,Virginia,False,azul.mia.usa.sinvest,,,Firepower 2120,,,Network
+mia-dc-ftd02.mia.usa.sinvest,,MIAMI,,180.201.210.71,Telefonica,False,mia-dc-ngint01,,,Firepower 2140,,,Network
+MIA-DC-COLO-FW02.mia.usa.sinvest,Miami-DC,MIAMI,,180.201.210.12,Telefonica,False,MIA-DC-COLO-FW01.mia.usa.sinvest,,,Cisco ASA 5545-X,,,Network
+ASH-DR-ASAOUT02- Firewall outside,,Ashburn,,180.201.85.27,Virginia,False,ASH-DR-ASAOUT01.mia.usa.sinvest,,,Cisco ASA 5525-X,,,Network
+ASH-DR-ASAI02- Firewall Inside,,Ashburn,,180.201.85.25,Virginia,False,ASH-DR-ASAI01.mia.usa.sinvest,,,Cisco ASA 5525-X,,,Network
+MIA-COLO-CORE-B.mia.usa.sinvest,Telefonica,Miami,,180.201.225.24,Telefonica,False,MIA-COLO-CORE-B.mia.usa.sinvest,,,N9K-C9508,,,Network
+MIA-COLO-CORE-A.mia.usa.sinvest,Telefonica,Miami,,180.201.99.253,Telefonica,False,MIA-COLO-CORE-A.mia.usa.sinvest,,,N9K-C9508,,,Network
+MIA-DC-HFLEXFB-B,,Miami,,180.201.160.60,Telefonica,False,MIA-DC-HFLEXFB-B.mia.usa.sinvest,,,Cisco,,,Network
+SD-VG02.mia.usa.sinvest,,San Diego,,10.1.5.251,San Diego,True,SDVG02.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+SD-Brch-iSPDMVPN.mia.usa.sinvest,,San Diego,,10.1.245.2,San Diego,True,SD-Brch-iSPDMVPN.mia.usa.sinvest,,,Cisco 4331 ISR,,,Network
+miadcasm1.mia.usa.sinvest,Miami Data Center,,,180.201.253.202,,True,miadcasm1.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+miadcasm2.mia.usa.sinvest,Telefonica,,,180.201.253.204,,True,miadcasm2.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+MIA-CR-FTD,,Crossroad,,180.201.79.10,CrossRoads,False,MIA-CR-FTD,,,Cisco,,,Network
+SD-FTD,,San Diego,,10.1.6.35,San Diego,False,SD-FTD,,,Cisco,,,Network
+MIADEVCORE,,Miami,,180.201.251.193,Telefonica Dev,False,MIADEVCORE.miadev.usa.sinvest,,,Cisco Catalyst 4500 L3,,,Network
+MIADEVBACKSW,,Miami,,180.201.251.194,Telefonica Dev,False,MIADEVBACK.mia.usa.sinvest,FOC1844U1FD,FOC1844U1FD,Cisco Catalyst 38xx stack,,,Network
+MIADEVBACKSW,,Miami,,180.201.251.194,Telefonica Dev,False,MIADEVBACK.mia.usa.sinvest,FOC1844X1DY,FOC1844X1DY,Cisco Catalyst 38xx stack,,,Network
+miadevdcucst01-A,Telefonica,Miami,,180.201.251.187,Telefonica Dev,False,miadevdcucst01-A,,,Cisco UCS 6324 Fabric Interconnect,,,Network
+miadevdcucst01-B,Telefonica,Miami,,180.201.251.188,Telefonica Dev,False,miadevdcucst01-B,,,Cisco UCS 6324 Fabric Interconnect,,,Network
+MIADEVDNZFRONT.miadev.usa.sinvest,,Miami,,180.201.251.195,Telefonica Dev,False,MIADEVDNZFRONT.miadev.usa.sinvest,FOC1741U15C,FOC1741U15C,Cisco Catalyst 38xx stack,,,Network
+miadevltm01.miadev.usa.sinvest,Telefonica Miami,Miami,,180.201.252.247,Telefonica Dev,False,miadevltm01.miadev.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+miadevltm02.miadev.usa.sinvest,Network Closet 1,Miami,,180.201.252.248,Telefonica Dev,False,miadevltm02.miadev.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-vdilb01.mia.usa.sinvest,Telefonica,Miami,,10.1.254.24,Telefonica,False,mia-dc-vdilb01.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-vdilb02.mia.usa.sinvest,Network Closet 1,Miami,,10.1.254.25,Telefonica,False,mia-dc-vdilb02.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-ltm01.mia.usa.sinvest,Telefonica,,,180.201.210.90,,True,mia-dc-ltm01.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-ltm02.mia.usa.sinvest,Telefonica,MIAMI,,180.201.210.91,Telefonica,True,mia-dc-ltm02.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-gtm01.mia.usa.sinvest,Miami,,,180.201.210.80,,True,mia-dc-gtm01.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+mia-dc-gtm02.mia.usa.sinvest,Network Closet 1,,,180.201.210.81,,True,mia-dc-gtm02.mia.usa.sinvest,,,BIG-IP Virtual Edition,,,Network
+MIAHQCORE01-A.mia.usa.sinvest,,Miami,,180.201.55.251,Brickell830,False,MIAHQCORE01-A.mia.usa.sinvest,,,Nexus 9504,,,Network
+MIAHQCORE01-B.mia.usa.sinvest,,Miami,,180.201.55.252,Brickell830,False,MIAHQCORE01-B.mia.usa.sinvest,,,Nexus 9504,,,Network
+MIAHQISR01.mia.usa.sinvest,,Miami,,180.201.104.18,Brickell830,False,MIAHQISR01.mia.usa.sinvest,,,Cisco C8300-2N2S-4T2X,,,Network
+MIAHQDMZOUT01.mia.usa.sinvest,,Miami,,180.201.55.48,Brickell830,False,MIAHQDMZOUT01.mia.usa.sinvest,FJC272024EM,FJC272024EM,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQDMZOUT01.mia.usa.sinvest,,Miami,,180.201.55.48,Brickell830,False,MIAHQDMZOUT01.mia.usa.sinvest,FJC27211L9E,FJC27211L9E,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQDMZBACK01.mia.usa.sinvest,,Miami,,180.201.55.49,Brickell830,False,MIAHQDMZBACK01.mia.usa.sinvest,FJC272020XZ,FJC272020XZ,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQDMZBACK01.mia.usa.sinvest,,Miami,,180.201.55.49,Brickell830,False,MIAHQDMZBACK01.mia.usa.sinvest,FJC272025DU,FJC272025DU,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQISR02.mia.usa.sinvest,,Miami,,180.201.140.14,Brickell830,False,MIAHQISR02.mia.usa.sinvest,,,Cisco C8300-2N2S-4T2X,,,Network
+MIAHQIDF18-ST01.mia.usa.sinvest,,Miami,,180.201.55.14,Brickell830,False,MIAHQIDF18-ST01.mia.usa.sinvest,FJC27202546,FJC27202546,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF18-ST01.mia.usa.sinvest,,Miami,,180.201.55.14,Brickell830,False,MIAHQIDF18-ST01.mia.usa.sinvest,FJC27202547,FJC27202547,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF18-ST01.mia.usa.sinvest,,Miami,,180.201.55.14,Brickell830,False,MIAHQIDF18-ST01.mia.usa.sinvest,FJC272226PB,FJC272226PB,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF18-ST01.mia.usa.sinvest,,Miami,,180.201.55.14,Brickell830,False,MIAHQIDF18-ST01.mia.usa.sinvest,FJC27231REB,FJC27231REB,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF18-ST02.mia.usa.sinvest,,Miami,,180.201.55.15,Brickell830,False,MIAHQIDF18-ST02.mia.usa.sinvest,FJC27201ZK7,FJC27201ZK7,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF18-ST02.mia.usa.sinvest,,Miami,,180.201.55.15,Brickell830,False,MIAHQIDF18-ST02.mia.usa.sinvest,FJC27211L1P,FJC27211L1P,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF18-ST02.mia.usa.sinvest,,Miami,,180.201.55.15,Brickell830,False,MIAHQIDF18-ST02.mia.usa.sinvest,FJC272226QQ,FJC272226QQ,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF18-ST02.mia.usa.sinvest,,Miami,,180.201.55.15,Brickell830,False,MIAHQIDF18-ST02.mia.usa.sinvest,FJC27231RPE,FJC27231RPE,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF19-ST01.mia.usa.sinvest,,Miami,,180.201.55.16,Brickell830,False,MIAHQIDF19-ST01.mia.usa.sinvest,FJC27201D50,FJC27201D50,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF19-ST01.mia.usa.sinvest,,Miami,,180.201.55.16,Brickell830,False,MIAHQIDF19-ST01.mia.usa.sinvest,FJC272025NL,FJC272025NL,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF19-ST01.mia.usa.sinvest,,Miami,,180.201.55.16,Brickell830,False,MIAHQIDF19-ST01.mia.usa.sinvest,FJC27231RQ5,FJC27231RQ5,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF19-ST02.mia.usa.sinvest,,Miami,,180.201.55.17,Brickell830,False,MIAHQIDF19-ST02.mia.usa.sinvest,FJC27201T16,FJC27201T16,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF19-ST02.mia.usa.sinvest,,Miami,,180.201.55.17,Brickell830,False,MIAHQIDF19-ST02.mia.usa.sinvest,FJC27201VBV,FJC27201VBV,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF19-ST02.mia.usa.sinvest,,Miami,,180.201.55.17,Brickell830,False,MIAHQIDF19-ST02.mia.usa.sinvest,FJC27221S2J,FJC27221S2J,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF20-ST01.mia.usa.sinvest,,Miami,,180.201.55.18,Brickell830,False,MIAHQIDF20-ST01.mia.usa.sinvest,FJC272023S0,FJC272023S0,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF20-ST01.mia.usa.sinvest,,Miami,,180.201.55.18,Brickell830,False,MIAHQIDF20-ST01.mia.usa.sinvest,FJC27211J8W,FJC27211J8W,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF20-ST01.mia.usa.sinvest,,Miami,,180.201.55.18,Brickell830,False,MIAHQIDF20-ST01.mia.usa.sinvest,FJC27231NNL,FJC27231NNL,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF20-ST02.mia.usa.sinvest,,Miami,,180.201.55.19,Brickell830,False,MIAHQIDF20-ST02.mia.usa.sinvest,FJC272022NZ,FJC272022NZ,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF20-ST02.mia.usa.sinvest,,Miami,,180.201.55.19,Brickell830,False,MIAHQIDF20-ST02.mia.usa.sinvest,FJC272023V5,FJC272023V5,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF20-ST02.mia.usa.sinvest,,Miami,,180.201.55.19,Brickell830,False,MIAHQIDF20-ST02.mia.usa.sinvest,FJC27231RKK,FJC27231RKK,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF17-ST01.mia.usa.sinvest,,Miami,,180.201.55.12,Brickell830,False,MIAHQIDF17-ST01.mia.usa.sinvest,FJC27201XSV,FJC27201XSV,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF17-ST01.mia.usa.sinvest,,Miami,,180.201.55.12,Brickell830,False,MIAHQIDF17-ST01.mia.usa.sinvest,FJC27202535,FJC27202535,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF17-ST01.mia.usa.sinvest,,Miami,,180.201.55.12,Brickell830,False,MIAHQIDF17-ST01.mia.usa.sinvest,FJC2723233R,FJC2723233R,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF17-ST02.mia.usa.sinvest,,Miami,,180.201.55.13,Brickell830,False,MIAHQIDF17-ST02.mia.usa.sinvest,FJC272027P3,FJC272027P3,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF17-ST02.mia.usa.sinvest,,Miami,,180.201.55.13,Brickell830,False,MIAHQIDF17-ST02.mia.usa.sinvest,FJC27211L2M,FJC27211L2M,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF17-ST02.mia.usa.sinvest,,Miami,,180.201.55.13,Brickell830,False,MIAHQIDF17-ST02.mia.usa.sinvest,FJC2723287J,FJC2723287J,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF16-ST01.mia.usa.sinvest,,Miami,,180.201.55.10,Brickell830,False,MIAHQIDF16-ST01.mia.usa.sinvest,FJC27201XRM,FJC27201XRM,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF16-ST01.mia.usa.sinvest,,Miami,,180.201.55.10,Brickell830,False,MIAHQIDF16-ST01.mia.usa.sinvest,FJC27201XWE,FJC27201XWE,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF16-ST01.mia.usa.sinvest,,Miami,,180.201.55.10,Brickell830,False,MIAHQIDF16-ST01.mia.usa.sinvest,FJC27231RN0,FJC27231RN0,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF16-ST02.mia.usa.sinvest,,Miami,,180.201.55.11,Brickell830,False,MIAHQIDF16-ST02.mia.usa.sinvest,FJC27201V23,FJC27201V23,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF16-ST02.mia.usa.sinvest,,Miami,,180.201.55.11,Brickell830,False,MIAHQIDF16-ST02.mia.usa.sinvest,FJC2720238Q,FJC2720238Q,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF16-ST02.mia.usa.sinvest,,Miami,,180.201.55.11,Brickell830,False,MIAHQIDF16-ST02.mia.usa.sinvest,FJC27231RJL,FJC27231RJL,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQWLC01.mia.usa.sinvest,830 Brickell,Miami,,180.201.55.100,Brickell830,False,MIAHQWLC01.mia.usa.sinvest,,,Cisco,,,Network
+MIAHQWLC02,830 Brickell,Miami,,180.201.55.102,Brickell830,False,MIAHQWLC01.mia.usa.sinvest,,,Cisco,,,Network
+MIAHQIDF21-ST01.mia.usa.sinvest,,Miami,,180.201.55.20,Brickell830,False,MIAHQIDF21-ST01.mia.usa.sinvest,FJC27201SS8,FJC27201SS8,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF21-ST01.mia.usa.sinvest,,Miami,,180.201.55.20,Brickell830,False,MIAHQIDF21-ST01.mia.usa.sinvest,FJC272021NC,FJC272021NC,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF21-ST01.mia.usa.sinvest,,Miami,,180.201.55.20,Brickell830,False,MIAHQIDF21-ST01.mia.usa.sinvest,FJC27231RK3,FJC27231RK3,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF21-ST02.mia.usa.sinvest,,Miami,,180.201.55.21,Brickell830,False,MIAHQIDF21-ST02.mia.usa.sinvest,FJC27201XJR,FJC27201XJR,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF21-ST02.mia.usa.sinvest,,Miami,,180.201.55.21,Brickell830,False,MIAHQIDF21-ST02.mia.usa.sinvest,FJC272020JR,FJC272020JR,Cisco Catalyst 9300 Series Switch,,,Network
+MIAHQIDF21-ST02.mia.usa.sinvest,,Miami,,180.201.55.21,Brickell830,False,MIAHQIDF21-ST02.mia.usa.sinvest,FJC272325WW,FJC272325WW,Cisco Catalyst 9300 Series Switch,,,Network
+MIA-DC-VGW-01.mia.usa.sinvest,,MIAMI,,180.201.150.129,Telefonica,False,MIA-DC-VGW-01.mia.usa.sinvest,,,Cisco 4351 ISR,,,Network
+MIA-DC-BACKSW.mia.usa.sinvest,,Miami,,10.1.254.22,Telefonica,False,MIA-DC-BACKSW.mia.usa.sinvest,FJC27201Z3J,FJC27201Z3J,Cisco Catalyst 9300 Series Switch,,,Network
+MIA-DC-BACKSW.mia.usa.sinvest,,Miami,,10.1.254.22,Telefonica,False,MIA-DC-BACKSW.mia.usa.sinvest,FJC27211KTB,FJC27211KTB,Cisco Catalyst 9300 Series Switch,,,Network
+ASH-DR-UCS-B.mia.usa.sinvest,Virginia,Virginia,,180.201.85.13,Virginia,False,ASH-DR-UCS-B.mia.usa.sinvest,,,Cisco,,,Network
+ASH-DR-UCS-A.mia.usa.sinvest,Virginia,Virginia,,180.201.85.12,Virginia,False,ASH-DR-UCS-A.mia.usa.sinvest,,,Cisco,,,Network
